@@ -10,15 +10,15 @@ function RouterConfig({ searchTerm }) {
 
     return (
         <div>
-            <Router>
-                <Routes>
+
+            <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/catalogue' element={<Catalogue />} />
                 <Route path='/product-details/:id' element={<ProductDetails />} />
                 <Route path='/search' element={<SearchResults searchTerm={searchTerm} />} />
                 <Route path='/basket' element={<TotalBasket />} />
             </Routes>
-            </Router>   
+
         </div>
     )
 }
