@@ -8,7 +8,7 @@ This is a simple e-commerce application built using React. The project utilizes 
 
 #Features
 <li>View all products: Browse all available products fetched from the DummyJSON API.
-<li>Filter products: Filter products based on categories and price.
+<li>Filter products: Filter products based on categories.
 <li>Product details page: View detailed information about a product including description, price, and reviews.
 <li>Add to basket: Add products to your shopping basket.
 <li>Basket drawer: View items added to the basket in a responsive drawer component.
